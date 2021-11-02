@@ -1,0 +1,190 @@
+:root {
+    --primary-color:white;
+    --font-size:16px;
+    --cursor:pointer;
+    --border:none;
+}
+body {
+    color: var(--primary-color);
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    text-align: center;
+}
+.btn-1 {
+    background: #409740;
+    color: var(--primary-color);
+    border: var(--border);
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;
+}
+.btn-1:hover {
+    color: var(--primary-color);
+    background: green;
+}
+.btn-2 {
+    background: red;
+    color: var(--primary-color);
+    border: var(--border);
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s; 
+}
+.btn-2:hover {
+    color: var(--primary-color);
+    background: darkred;
+}
+.btn-3 {
+    background: blue;
+    color: var(--primary-color);
+    border: var(--border);
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;  
+}
+.btn-3:hover {
+    color: var(--primary-color);
+    background: darkblue;
+}
+/* ---------------------------------------------- */
+.btn-4 {
+    background: #df9019;
+    color: var(--primary-color);
+    border-radius: 20px ;
+    border: var(--border);
+    font-size: var(--font-size);
+    padding: 10px 40px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;
+}
+.btn-4:hover {
+    color: var(--primary-color);
+    background: #925a05;
+}
+.btn-5 {
+    background: #ccb806;
+    color: var(--primary-color);
+    border-radius: 20px ;
+    border: var(--border);
+    font-size: var(--font-size);
+    padding: 10px 30px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;
+}
+.btn-5:hover {
+    color: var(--primary-color);
+    background: rgb(184, 181, 9);
+}
+.btn-6 {
+    background: rgb(59, 54, 54);
+    color: var(--primary-color);
+    border-radius: 20px;
+    border: var(--border);
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;  
+}
+.btn-6:hover {
+    color: var(--primary-color);
+    background: darkblue;
+}
+/* ---------------------------------------------- */
+.btn-7 {
+    background-color: cornflowerblue;
+    color: var(--primary-color);
+    border: solid green;
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;
+}
+.btn-7:hover {
+    color: var(--primary-color);
+    background: green;
+}
+.btn-8 {
+    background-color: cornflowerblue;
+    color: var(--primary-color);
+    border: solid red;
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;  
+}
+.btn-8:hover {
+    color: var(--primary-color);
+    background: red;
+}
+.btn-9 {
+    background-color: cornflowerblue;
+    color: var(--primary-color);
+    border: solid blue;
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;  
+}
+.btn-9:hover {
+    color: var(--primary-color);
+    background: blue;
+}
+/* ---------------------------------------------- */
+.btn-10 {
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: var(--primary-color);
+    border: solid rgb(235, 143, 4);
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;
+}
+.btn-10:hover {
+    color: var(--primary-color);
+    background: rgb(235, 143, 4);
+}
+.btn-11 {
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: var(--primary-color);
+    border: solid red;
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;  
+}
+.btn-11:hover {
+    color: var(--primary-color);
+    background: red;
+}
+.btn-12 {
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: var(--primary-color);
+    border: solid blue;
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor:var(--cursor);
+    transition-property: background;
+    transition-duration: 1s;  
+}
+.btn-12:hover {
+    color: var(--primary-color);
+    background: blue;
+}
